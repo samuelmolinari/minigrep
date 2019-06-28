@@ -1,0 +1,3 @@
+[minigrep] hello world minigrep this is just a minigrep test and nothing else.
+Other line with minigrep
+Other line without it
