@@ -1,4 +1,3 @@
-#[derive(Debug)]
 pub struct Config {
     pub filepath: String,
     pub query: String
@@ -19,7 +18,7 @@ impl Config {
 
 #[cfg(test)]
 mod test {
-    use crate::cmd::Config;
+    use super::Config;
 
     #[test]
     fn test_parse_args() {

@@ -1,5 +1,5 @@
 use std::env;
-use minigrep::cmd::Config;
+use minigrep::grep::config::Config;
 use minigrep::grep;
 use std::io;
 
